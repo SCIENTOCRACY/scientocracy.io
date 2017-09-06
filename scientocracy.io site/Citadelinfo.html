@@ -35,7 +35,8 @@
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
     
- <nav class="navbar navbar-default navbar-fixed-top navbar-nav">
+ <!--Navigation Bar. -->
+    <nav class="navbar navbar-default navbar-fixed-top navbar-nav">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -50,20 +51,21 @@
       <img class="navbar-brand" href="#" src="Scientocracy%20Logo-06.jpg" height="5%" width="5%">-->
         
         <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about">ABOUT</a></li>
+            
+        <li class ="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#about">ABOUT <span class ="caret" href="#dropdown-menu"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="brand.html">Branding</a></li></ul>
             
           <!--Dropdown menu.
             Fix script for dropdown that leads to other site. Conflicting script with page redirect.-->
         <li class ="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#services">PLATFORM <span class ="caret" href="#dropdown-menu"></span></a>
             <ul class="dropdown-menu">
-            <li><a href="Citadelinfo.html">The Citadel</a></li>
-            <li><a href="brand.html">Branding</a></li>
-            </ul></li>
+                <li><a href="Citadelinfo.html">The Citadel</a></li></ul>
+            
         <li><a href="#learnmore">CONNECT</a></li>
         <li><a href="#contact">CONTACT</a></li>
       </ul>
     </div>
-  </div>
 </nav>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r74/three.min.js"></script>

@@ -1,6 +1,29 @@
-body{
-  background-color: #000000;
-  margin: 0px;
-  overflow: hidden;
-   background-image: radial-gradient(ellipse farthest-corner at center top, #23233f 0%, #000000 60%);
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Nova+Slim|Oxygen');
+.jumbotron{background: black; color:white; padding: 100px 25px;}
+h1{font-family: 'Audiowide', cursive;}
+h2{font-family: 'Nova Slim', cursive;}
+p{font-family: 'Oxygen', sans-serif;}
+.bg-grey {background-color: #f6f6f6;}
+.container-fluid {padding: 60px 50px;  text-align: center}
+.navbar {margin-bottom: 0; background-color: #000000; z-index: 9999; border: 0; font-size: 12px !important; line-height: 1.42857143 !important; letter-spacing: 4px; border-radius: 0;}
+.row{align-content: center; text-align: center;}
+
+.navbar li a, .navbar .navbar-brand { color: #fff !important;}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {color: #000000 !important; background-color: #fff !important;}
+
+.navbar-default .navbar-toggle {border-color: transparent; color: #fff !important;}
+footer .glyphicon {font-size: 20px; margin-bottom: 20px; color: #000000;}
+h3{font-weight: 600;}
+h4{font-weight: 500;}
+#about li{list-style: none;}
+p{font-size: 1.5em;}
+ul{font-size: 1.3em;}
+
+a {
+  color: #6431FB;
 }
+
+a:focus, a:hover {
+    color: #6431FB;
+  }
